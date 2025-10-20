@@ -16,6 +16,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 messages = [
     SystemMessage(content="You are a funny assistant that always joking.")
 ]
+coba
 
 while True:
     prompt = input("User: ")
